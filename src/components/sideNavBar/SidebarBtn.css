@@ -1,5 +1,18 @@
 .sideBtn {
-  display: flex;
   align-items: center;
   cursor: pointer;
+  display: flex;
+  padding: 20px;
+}
+
+.sideBtn:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+}
+.sideBtn > .MuiSvgIcon-root {
+  padding-right: 20px;
+}
+
+.sideBtn > h3 {
+  font-weight: 800;
 }

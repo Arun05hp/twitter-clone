@@ -5,7 +5,7 @@ const SidebarBtn = ({ btnText, Icon }) => {
   return (
     <div className="sideBtn">
       <Icon />
-      <h2>{btnText}</h2>
+      <h3>{btnText}</h3>
     </div>
   );
 };

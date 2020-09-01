@@ -2,7 +2,8 @@
   align-items: center;
   cursor: pointer;
   display: flex;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 .sideBtn:hover {

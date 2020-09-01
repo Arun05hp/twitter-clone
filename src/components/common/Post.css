@@ -1,0 +1,10 @@
+.post {
+  border-bottom: 1px solid var(--twitter-bgColor);
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.post__body > img {
+  border-radius: 20px;
+  width: 100%;
+}

@@ -13,10 +13,7 @@ const TweetBox = () => {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__wrapper d-flex">
-          <Avatar
-            size="60"
-            src="https://w0.pngwave.com/png/613/636/computer-icons-user-profile-male-avatar-avatar-png-clip-art.png"
-          />
+          <Avatar src="https://w0.pngwave.com/png/613/636/computer-icons-user-profile-male-avatar-avatar-png-clip-art.png" />
           <div className="tweetBox__input">
             <input type="text" placeholder="What's happening?" />
 

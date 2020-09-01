@@ -20,7 +20,7 @@ const Post = ({ avatar, name, username, image, timestap, text, verified }) => {
           <div className="post__headerText">
             <h3>
               Arun Kumar
-              <span>
+              <span className="post_headerName">
                 <CheckCircleIcon className="post__badge" /> @arun0596
               </span>
             </h3>
@@ -29,10 +29,14 @@ const Post = ({ avatar, name, username, image, timestap, text, verified }) => {
             <p>Twitter Clone</p>
           </div>
         </div>
-        <img
-          src="https://ipglab.com/wp-content/uploads/2016/02/Twitter-Gifs.gif"
-          alt=""
-        />
+        <div className="img-wrapper">
+          <img
+            className="img-fluid"
+            src="https://ipglab.com/wp-content/uploads/2016/02/Twitter-Gifs.gif"
+            alt=""
+          />
+        </div>
+
         <div className="post__footer">
           <BtnWithHover
             Icon={() => <ChatBubbleOutlineIcon fontSize="small" />}

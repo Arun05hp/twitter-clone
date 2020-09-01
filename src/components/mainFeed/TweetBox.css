@@ -10,7 +10,7 @@
 .tweetBox__input {
   flex: 1;
 }
-.tweetBox__input > input {
+.tweetBox__input > textarea {
   border: none;
   outline: none;
   font-size: 20px;

@@ -6,8 +6,15 @@
   display: flex;
 }
 
+.md-d-block {
+  display: none !important;
+}
+
 @media screen and (max-width: 1002px) {
   .md-d-none {
     display: none !important;
+  }
+  .md-d-block {
+    display: block !important;
   }
 }

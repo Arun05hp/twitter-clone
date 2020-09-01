@@ -11,6 +11,7 @@ import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
+import AddIcon from "@material-ui/icons/Add";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -28,7 +29,8 @@ const Sidebar = () => {
       <SidebarBtn btnText="Profile" Icon={PermIdentityIcon} />
       <SidebarBtn btnText="More" Icon={MoreHorizIcon} />
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Tweet
+        <span className="md-d-none">Tweet</span>
+        <AddIcon className="md-d-block" />
       </Button>
     </div>
   );

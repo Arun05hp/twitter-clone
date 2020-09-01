@@ -9,32 +9,37 @@ import PublishIcon from "@material-ui/icons/Publish";
 
 import "./Post.css";
 
-const Post = ({ avatar, name, username, image, timestap, text, verified }) => {
+const Post = ({
+  avatarSrc,
+  name,
+  username,
+  imageSrc,
+  timestap,
+  text,
+  verified,
+}) => {
   return (
     <div className="post">
       <div className="post__avatar">
-        <Avatar src="https://w0.pngwave.com/png/613/636/computer-icons-user-profile-male-avatar-avatar-png-clip-art.png" />
+        <Avatar src={avatarSrc} />
       </div>
       <div className="post__body">
         <div className="post__header">
           <div className="post__headerText">
             <h3>
-              Arun Kumar
+              {name}
               <span className="post_headerName">
-                <CheckCircleIcon className="post__badge" /> @arun0596
+                {verified && <CheckCircleIcon className="post__badge" />}{" "}
+                {username}
               </span>
             </h3>
           </div>
           <div className="post__headerDescription">
-            <p>Twitter Clone</p>
+            <p>{text}</p>
           </div>
         </div>
         <div className="img-wrapper">
-          <img
-            className="img-fluid"
-            src="https://ipglab.com/wp-content/uploads/2016/02/Twitter-Gifs.gif"
-            alt=""
-          />
+          <img className="img-fluid" src={imageSrc} alt="" />
         </div>
         <div className="post__footer">
           <BtnWithHover

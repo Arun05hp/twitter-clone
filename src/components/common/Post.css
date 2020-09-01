@@ -26,6 +26,7 @@
 
 .post__badge {
   font-size: 14px !important;
+  margin-left: 5px;
   color: var(--twitter-color);
 }
 

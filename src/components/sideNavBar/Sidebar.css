@@ -2,6 +2,7 @@
   border-right: 1px solid var(--twitter-bgColor);
   max-width: 250px;
   padding: 0 20px;
+  padding-bottom: 20px;
   overflow-y: scroll;
 }
 

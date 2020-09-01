@@ -5,3 +5,9 @@
 .d-flex {
   display: flex;
 }
+
+@media screen and (max-width: 1002px) {
+  .md-d-none {
+    display: none !important;
+  }
+}

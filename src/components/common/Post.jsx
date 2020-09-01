@@ -36,7 +36,6 @@ const Post = ({ avatar, name, username, image, timestap, text, verified }) => {
             alt=""
           />
         </div>
-
         <div className="post__footer">
           <BtnWithHover
             Icon={() => <ChatBubbleOutlineIcon fontSize="small" />}

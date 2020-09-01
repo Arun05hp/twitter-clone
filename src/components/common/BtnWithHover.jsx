@@ -1,8 +1,8 @@
 import React from "react";
 import "./BtnWithHover.css";
-const BtnWithHover = ({ Icon }) => {
+const BtnWithHover = ({ Icon, className }) => {
   return (
-    <div className="btnWithHover">
+    <div className={`btnWithHover ${className ? className : ""}`}>
       <Icon />
     </div>
   );

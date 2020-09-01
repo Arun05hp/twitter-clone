@@ -1,7 +1,6 @@
 .feed {
   border-right: 1px solid var(--twitter-bgColor);
-  flex: 0.4;
-  min-width: fit-content;
+  flex: 1;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;

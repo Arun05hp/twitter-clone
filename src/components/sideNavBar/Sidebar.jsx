@@ -1,6 +1,7 @@
 import React from "react";
 import SidebarBtn from "./SidebarBtn";
 import { Button } from "@material-ui/core";
+import BtnWithHover from "../common/BtnWithHover";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import Home from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
@@ -15,7 +16,9 @@ import "./Sidebar.css";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <TwitterIcon className="sidebar__twitterIcon" />
+      <BtnWithHover
+        Icon={() => <TwitterIcon className="sidebar__twitterIcon" />}
+      />
       <SidebarBtn active btnText="Home" Icon={Home} />
       <SidebarBtn btnText="Explore" Icon={SearchIcon} />
       <SidebarBtn btnText="Notifications" Icon={NotificationsNoneIcon} />

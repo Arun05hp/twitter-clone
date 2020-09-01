@@ -1,5 +1,6 @@
 .btnWithHover {
   color: var(--twitter-color);
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   padding: 8px;
@@ -8,5 +9,5 @@
 .btnWithHover:hover {
   background-color: var(--twitter-bgColor);
   border-radius: 30px;
-  transition: color 100ms ease-out;
+  transition: 100ms ease-out;
 }

@@ -21,9 +21,9 @@ const TweetBox = () => {
               <div className="tweetBox_linkBtn">
                 <BtnWithHover Icon={CropOriginalIcon} />
                 <BtnWithHover Icon={GifIcon} />
-                <BtnWithHover Icon={BarChartIcon} />
+                <BtnWithHover className="md-d-none" Icon={BarChartIcon} />
                 <BtnWithHover Icon={MoodIcon} />
-                <BtnWithHover Icon={EventIcon} />
+                <BtnWithHover className="md-d-none" Icon={EventIcon} />
               </div>
               <Button className="tweetBox_tweetBtn">Tweet</Button>
             </div>

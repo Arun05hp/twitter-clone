@@ -30,7 +30,7 @@ const Sidebar = () => {
       <SidebarBtn btnText="More" Icon={MoreHorizIcon} />
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
         <span className="md-d-none">Tweet</span>
-        <AddIcon className="md-d-block" />
+        <AddIcon className="md-d-block" fontSize="small" />
       </Button>
     </div>
   );

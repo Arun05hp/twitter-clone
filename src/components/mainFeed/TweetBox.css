@@ -20,6 +20,7 @@
 }
 .tweetBox__btnContainer {
   align-items: center;
+  justify-content: space-between;
 }
 
 .tweetBox_tweetBtn {
@@ -29,8 +30,6 @@
   color: #fff !important;
   font-weight: 800 !important;
   height: 40px !important;
-  margin-top: 20px !important;
-  margin-left: auto !important;
   padding: 0 15px !important;
   text-transform: inherit !important;
 }

@@ -2,7 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Twitter Clone
 
+###Desktop View
 ![Desktop View](https://github.com/Arun05hp/twitter-clone/blob/master/public/Tweet-Clone.png)
+
+###Mobile View
 ![Mobile View](https://github.com/Arun05hp/twitter-clone/blob/master/public/Twitter-Clone.png?raw=true)
 
 ## Available Scripts

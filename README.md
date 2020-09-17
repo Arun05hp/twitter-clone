@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Twitter Clone
+
+![Desktop View](relative/public/Tweet-Clone.png?raw=true)
+![Mobile View](relative/public/Twitter-Clone.png?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
